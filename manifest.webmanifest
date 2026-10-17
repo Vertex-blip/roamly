@@ -1,0 +1,58 @@
+{
+  "id": "./",
+  "name": "Roamly",
+  "short_name": "Roamly",
+  "description": "A travel notebook for the little places, thoughtful itineraries, and budgets that make a trip your own.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#e6efed",
+  "theme_color": "#267d80",
+  "lang": "en",
+  "categories": [
+    "productivity",
+    "lifestyle"
+  ],
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "My itinerary",
+      "url": "./#itinerary",
+      "icons": [
+        {
+          "src": "./assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Trip budget",
+      "url": "./#budget",
+      "icons": [
+        {
+          "src": "./assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

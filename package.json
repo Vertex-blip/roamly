@@ -1,0 +1,16 @@
+{
+  "name": "roamly",
+  "version": "1.0.0",
+  "description": "A travel notebook for the little places, thoughtful itineraries, and budgets that make a trip your own.",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
